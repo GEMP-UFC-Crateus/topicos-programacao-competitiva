@@ -234,3 +234,9 @@ Implementation [here](2_2_1_subsets.cpp).
 ### 2.2.2 Generating Permutations
 
 Implementation [here](2_2_2_permutations.cpp).
+
+Implementation [here](2_2_2_permutations.cpp).
+
+Note that the C++ standard library also has the function `next_permutation` that can be used to generate permutations.
+
+Implementation [here](2_2_2_permutations_std.cpp)

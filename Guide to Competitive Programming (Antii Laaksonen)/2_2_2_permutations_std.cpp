@@ -9,7 +9,7 @@
 using namespace std; 
 
 const int n = 3;
-vector<char> permutation;
+vector<int> permutation;
 
 int main(){
 
@@ -31,7 +31,7 @@ int main(){
     
   } while (next_permutation(permutation.begin(), permutation.end()));
   
+  cout << "\n";
+  
   return 0;
 }
-
-
