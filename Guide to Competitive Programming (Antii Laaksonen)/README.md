@@ -229,8 +229,8 @@ int d = v[i].F+v[i].S;
 
 ### 2.2.1 Generating Subsets
 
-Implementation [here](2_2_1_subsets).
+Implementation [here](2_2_1_subsets.cpp).
 
 ### 2.2.2 Generating Permutations
 
-Implementation [here](2_2_2_permutations).
+Implementation [here](2_2_2_permutations.cpp).
