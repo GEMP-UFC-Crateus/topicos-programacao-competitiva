@@ -31,6 +31,7 @@ Input and output is sometimes a bottleneck in the program. The following lines a
 ```
 ios::sync_with_stdio(0);
 cin.tie(0);
+cout.tie(0);
 ```
 
 Note that the newline `"\n"` works faster than `endl`, because `endl` always causes a flush operation.
@@ -154,7 +155,16 @@ This loop reads elements from the input one after another, until there is no mor
 </tr>
 </table>
 
-The following code defines a long long variable:
+**Integers** The most used integer type in competitive programming is `int`.
+
+You can define how to display `int` values:
+
+```
+int y = 10;
+printf("%.4d\n", y); // 0010
+```
+
+The following code defines a `long long` variable:
 
 ```
 long long x = 123456789123456789LL;
@@ -172,10 +182,11 @@ We denote by `x mod m` the remainder when `x` is divided by `m`. For example, `1
 
 Thus, we can take the remainder after every operation, and the numbers will never become too large.
 
-**Floating Point Numbers** The required precision of the answer is usually given in the problem statement. An easy way to output the answer is to use the `printf` function and give the number of decimal places in the formatting string. For example, the following code prints the value of `x` with 9 decimal places:
+**Floating Point Numbers** The required precision of the answer is usually given in the problem statement. An easy way to output the answer is to use the `printf` function and give the number of decimal places in the formatting string. For example, the following code prints the value of `x` with 4 decimal places:
 
 ```
-printf("%.9f\n", x);
+float x = 12.3456789;
+printf("%.4f\n", x); // 12.3456
 ```
 
 ### 2.1.3 Shortening Code
@@ -215,3 +226,11 @@ v.PB(MP(y1,x1));
 v.PB(MP(y2,x2));
 int d = v[i].F+v[i].S;
 ```
+
+### 2.2.1 Generating Subsets
+
+Implementation [here](2_2_1_subsets).
+
+### 2.2.2 Generating Permutations
+
+Implementation [here](2_2_2_permutations).
