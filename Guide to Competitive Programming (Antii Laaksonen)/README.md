@@ -189,6 +189,22 @@ float x = 12.3456789;
 printf("%.4f\n", x); // 12.3456
 ```
 
+Using `#include <iomanip>`:
+
+```
+float pi = 3.14159;
+cout.precision(2);
+cout.setf(ios::fixed);
+cout << pi << "\n"; // 3.14
+```
+
+Inline version:
+
+```
+float pi = 3.14159;
+cout << fixed << setprecision(2) << pi << "\n"; // 3.14
+```
+
 ### 2.1.3 Shortening Code
 
 **Type Names** The command `typedef` can be used to give a short name to a data type. For example, the name `long long` is long, so we can define a short name `ll` as follows:
