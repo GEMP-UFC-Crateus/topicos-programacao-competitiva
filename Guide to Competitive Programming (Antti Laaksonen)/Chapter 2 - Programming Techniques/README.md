@@ -1,4 +1,4 @@
-# Guide to Competitive Programming (Antii Laaksonen) - Notes
+# Chapter 2 - Programming Techniques
 
 ## 2.1 Language Features
 

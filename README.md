@@ -9,7 +9,7 @@ Curadoria de materiais relacionados à programação competitiva.
 
 ## Bibliografia
 
-* [Guide do Competitive Programming (Antii Laaksonen)](https://github.com/GEMP-UFC-Crateus/topicos-programacao-competitiva/tree/master/Guide%20to%20Competitive%20Programming%20(Antii%20Laaksonen))
+* [Guide do Competitive Programming (Antti Laaksonen)](https://github.com/GEMP-UFC-Crateus/topicos-programacao-competitiva/tree/master/Guide%20to%20Competitive%20Programming%20(Antii%20Laaksonen))
 
 ## Vídeos
 
