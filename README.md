@@ -6,6 +6,7 @@ Curadoria de materiais relacionados à programação competitiva.
 
 * [Neps Academy](https://neps.academy/)
 * [URI Online Judge](https://www.urionlinejudge.com.br/)
+* [HackerEarth](https://www.hackerearth.com/)
 
 ## Bibliografia
 
